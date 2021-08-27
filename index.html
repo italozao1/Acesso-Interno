@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Form</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <style>
+  	body{ background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+    background-attachment: fixed;
+	background-size: cover;
+    }
+    h1{ color: yellow;
+    text-align: center;
+    font-family: Helvetica Neue", Arial, sans-serif";
+    font-size: 50px;
+    
+    }
+    .form{ text-align: center; margin-top: 7%;
+    }
+    .texto{ font-size: 19px; color: white;
+  	}
+    #texto2{ font-size: 16px; color: yellow;
+  	}
+    .fw-light{ text-align: center; margin-top: 3.0cm; color: white;
+    }     
+    .box{
+        width: 300px;
+    }
+   	
+  </style>
+  
+    <br><br><br><h1>Acesso Interno</h1>
+
+   	<div>
+    
+    	<form class="form">
+        	<div>
+        		<label class="texto" for="name"><strong>Digite seu Usuário</strong></label><br>
+            	<input class="box" type="nome" name="nome">
+            </div>
+            <br>
+            <div>
+            	<label class="texto" for="password"><strong>Digite sua Senha</strong></label><br>
+            	<input class="box" type="password" name="password">
+                
+            </div>
+            <br><br>
+            <div>
+           		<input type="checkbox" id="box" name="box">
+  				<label id="texto2" for="box">Continuar conectado?</label><br><br><br>
+            </div>
+            <div>
+            	<button type="button" onclick="alert('Conectado com Sucesso')" class="btn btn-light">Conectar</button>
+            </div>
+       	</form>
+    </div>
+    <div>
+    	<p class="fw-light"><strong>Criador por Ítalo Oliveira © 2021 Direitos reservados.</p></b></strong>
+    </div>
+  </body>
+</html>
